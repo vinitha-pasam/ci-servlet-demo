@@ -28,7 +28,7 @@ You just need `docker` installed to build entire webapp and also create an execu
 
     ```bash
     ## replace `temp` with image name you have used in last command
-    $ docker run --name myapp -d -p 8080:8080 temp
+    $ docker run --name myapp -d -p 8080:8080 temp  
     ```
 
 3.  Now, Open web browser to visit url `http://localhost:8080/`
